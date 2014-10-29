@@ -34,6 +34,7 @@ gem 'rspec-rails', group: :development
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'bootstrap-sass', '2.3.2.0'
